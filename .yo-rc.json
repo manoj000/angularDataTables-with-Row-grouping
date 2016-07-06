@@ -1,0 +1,62 @@
+{
+  "generator-karma": {
+    "base-path": "../",
+    "frameworks": "jasmine",
+    "browsers": "PhantomJS",
+    "app-files": "app/scripts/**/*.js",
+    "files-comments": "bower:js,endbower",
+    "bower-components-path": "bower_components",
+    "test-files": "test/mock/**/*.js,test/spec/**/*.js"
+  },
+  "generator-angular-boilerplate": {
+    "version": "0.0.4",
+    "props": {
+      "angularVersion": "~1.3.15",
+      "angularModules": [],
+      "jQuery": {
+        "key": "jquery2"
+      },
+      "resource": {
+        "key": "none",
+        "module": null
+      },
+      "router": {
+        "key": "ui-router",
+        "module": "ui.router"
+      },
+      "ui": {
+        "key": "bootstrap",
+        "module": null
+      },
+      "bootstrapComponents": {
+        "key": "ui-bootstrap",
+        "module": "ui.bootstrap"
+      },
+      "cssPreprocessor": {
+        "key": "none",
+        "extension": "css"
+      },
+      "jsPreprocessor": {
+        "key": "none",
+        "extension": "js",
+        "srcExtension": "js"
+      },
+      "htmlPreprocessor": {
+        "key": "none",
+        "extension": "html"
+      },
+      "foundationComponents": {
+        "name": null,
+        "version": null,
+        "key": null,
+        "module": null
+      },
+      "paths": {
+        "src": "src",
+        "dist": "dist",
+        "e2e": "e2e",
+        "tmp": ".tmp"
+      }
+    }
+  }
+}

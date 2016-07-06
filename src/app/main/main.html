@@ -1,0 +1,22 @@
+<div class="container" ng-controller="MainController as showCase">
+
+  <datatable-wrapper>
+    <custom-element></custom-element>
+    <table datatable="ng" dt-options="showCase.dtOptions" dt-column-defs="showCase.dtColumn" dt-instance="showCase.dtInstance" class="row-border hover">
+      <thead>
+      <tr>
+        <th>FirstName</th>
+        <th>Age</th>
+        <th>Country</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr ng-repeat="person in showCase.persons">
+        <td>{{ person.firstName }}</td>
+        <td>{{ person.age }}</td>
+        <td>{{ person.country }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </datatable-wrapper>
+</div>
